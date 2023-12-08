@@ -114,7 +114,6 @@ alias dgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Configure asdf.
 . "$HOME/.asdf/asdf.sh"
-export PATH="$PATH:/home/oliver/.asdf/installs/golang/1.21.4/packages/bin"
 
 # Do other stuff.
 . ~/.work.sh
