@@ -109,6 +109,9 @@ fi
 # Configure editor.
 export EDITOR=vim
 
+# Configure PATH
+export PATH="$PATH:$HOME/bin"
+
 # Add git alias for managing dotfiles
 alias dgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -118,4 +121,3 @@ alias dgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Do other stuff.
 . ~/.work.sh
 . ~/.secrets.sh
-
